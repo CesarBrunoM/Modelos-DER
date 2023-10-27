@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T16:28:37.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="124woPZwqktwHzzrf9Mq" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T16:55:08.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="WJ9FBCZTU3xlnFsWwMRR" version="22.0.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kiuOybaDVMzfkG_UTb65-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kiuOybaDVMzfkG_UTb65-6" target="kiuOybaDVMzfkG_UTb65-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;E410PCT - Processo de Cotações&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;CODEMP&lt;br&gt;NUMPCT" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kiuOybaDVMzfkG_UTb65-8" target="kiuOybaDVMzfkG_UTb65-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;E410COT - Cotações&lt;/div&gt;CODEMP&lt;br&gt;NUMCOT&lt;br&gt;SEQCOT&lt;br&gt;CODPRO&lt;br&gt;NUMOCP" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="185" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kiuOybaDVMzfkG_UTb65-9" target="kiuOybaDVMzfkG_UTb65-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiuOybaDVMzfkG_UTb65-9" target="kiuOybaDVMzfkG_UTb65-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-9" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;E405SOL - Solicitações&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;CODEMP&lt;br&gt;NUMPCT&lt;br&gt;NUMCOT" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kiuOybaDVMzfkG_UTb65-10" target="kiuOybaDVMzfkG_UTb65-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-10" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;E410LCO - Ligação OC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;CODEMP&lt;br&gt;NUMCOT&lt;br&gt;NUMOCP&lt;br&gt;FILOCP&lt;br&gt;SEQCOT&lt;br&gt;SEQIPO&lt;br&gt;SEQISO" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kiuOybaDVMzfkG_UTb65-11" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;E420OCP - Ordem de Compra&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;CODEMP&lt;br&gt;CODFIL&lt;br&gt;NUMOCP" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="325" width="180" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
